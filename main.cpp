@@ -19,7 +19,7 @@ int main() {
     // Configura o texto
     sf::Text text;
     text.setFont(font);                   // Define a fonte
-    text.setString("Olá, SFML!");         // Define o texto a ser exibido
+    text.setString("Hello, World!");         // Define o texto a ser exibido
     text.setCharacterSize(50);            // Tamanho da fonte
     text.setFillColor(sf::Color::White);  // Cor do texto
     text.setStyle(sf::Text::Bold);        // Estilo do texto (negrito)
